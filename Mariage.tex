@@ -23,12 +23,15 @@ fontsize=10%
 
 \newcommand{\maversio}[3][1]{%
 	{
+	\parindent=0pt
 	\begin{paracol}{2}
+	\ensurevspace{#1\baselineskip}
 	\switchcolumn\switchcolumn*
-	#2 
+ 	 #2\looseness=-1 
 	\switchcolumn
-	 #3 
+	 #3\looseness=-1 
 	\end{paracol}%
+	
 	}}
 \begin{document}
 
