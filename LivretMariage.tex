@@ -1,0 +1,38 @@
+\documentclass[%
+fontsize=10%
+,a5paper%
+,DIV=15%
+]{scrartcl}
+%scrartcl
+
+
+
+\usepackage{gredocument}
+\usepackage{psaume}
+
+\title{\centrer{Messe de Mariage}}
+\author{Avec l'échange des consentements  et la bénédiction nuptiale}
+\date{}
+
+\makeindex
+\definecolor{rubrum}{rgb}{.6,0,0}
+\def\rubrum{\color{black}}%%%%%%%mettre"\def\rubrum{\color{rubrum}}" pour avoir le texte adéquat en rouge
+\def\nigra{\color{black}}
+%    \redlines
+%    \definecolor{gregoriocolor}{rgb}{.6,0,0}
+%
+%\let\red\rubrum
+
+\begin{document}
+    \newfontfamily\lettrines[Scale=1.3]{LettrinesPro800}
+    \def\gretextformat#1{{\fontsize{\taillepolice}{\taillepolice}\selectfont #1}}
+    \def\greinitialformat#1{{\lettrines #1}}
+
+\titre{Veni Creator}
+\vspace{0.5cm}
+\rubrica{On se met à genoux pour la première strophe.}
+\vulgo{1. Venez, Esprit-Saint Créateur, dans les âmes de vos fidèles : comblez de la grâce d'en haut les c\oe urs que vous avez créés.}
+
+\cantus{Hymne}{VeniCreator}{}
+\input{gabc/Hymne/VeniCreator-Couplets}
+\end{document}
