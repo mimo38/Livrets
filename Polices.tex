@@ -3,13 +3,7 @@
 \usepackage[latin1]{inputenc}
 \usepackage[T1]{fontenc}
 
-\DeclareFontFamily{T1}{toto}{}
-   \DeclareFontShape{T1}{toto}{m}{n}
-           { <-> toto }{}
-   \DeclareSymbolFont{toto}{T1}{toto}{m}{n}
-   \DeclareSymbolFontAlphabet{\mathtoto}{toto}
-   \newcommand{\texttoto}[1]
-   {{\fontencoding{T1}\fontfamily{toto}\selectfont #1}}
+\newfontfamily\texttoto[Scale=1.3]{toto}
 
 \begin{document}
 ABC \texttoto{ABC}
