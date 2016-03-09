@@ -29,15 +29,7 @@ fontsize=10%
     \def\gretextformat#1{{\fontsize{\taillepolice}{\taillepolice}\selectfont #1}}
     \def\greinitialformat#1{{\lettrines #1}}
     
-
-\newcommand{\ligne}[2]{
-\begin{center}
-\greseparator{#1}{#2}
-\end{center}
-}
-\newcommand{\marubrique}{\rubrica{Magnificat page \pageref{section:magnificat}. Verset et oraisons page \pageref{section:oraisons}}}
-
-
+    \newfontfamily\toto[Scale=1.3]{toto}
 
 \newfontfamily\malettrine[Scale=0.6]{toto}
 \renewcommand{\LettrineFontHook}{\malettrine\color{black}}
@@ -47,6 +39,7 @@ fontsize=10%
    {{\fontencoding{T1}\fontfamily{malettrine}\selectfont #1}}
 \toto{MonTexte}
 \lettrine{Ceci est un texte}{en lettrine}{normales}
+
 
 {\fontencoding{\encodingdefault}
 \fontfamily{toto}
