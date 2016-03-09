@@ -42,16 +42,17 @@ fontsize=10%
 \newfontfamily\malettrine[Scale=0.6]{toto}
 \renewcommand{\LettrineFontHook}{\malettrine\color{black}}
 
-\rubrica{avant le 4\ieme dimanche de l'Avent (en dehors des Quatre-Temps)}
-\versio{\lettrine{A}{urem} tuam, quǽsumus,
-Dómine, précibus nostris
-accómmoda: et mentis nostræ
-ténebras, grátia tuæ visitatiónis
-illústra: Qui vivis.}
-{\lettrine{S}{eigneur}, prêtez l’oreille à nos prières : et quand vous nous ferez la grâce de venir parmi nous, apportez votre lumière dans l’obscurité de nos âmes.}
+
 \newcommand{\toto}[1]
    {{\fontencoding{T1}\fontfamily{malettrine}\selectfont #1}}
 \toto{MonTexte}
 \lettrine{Ceci est un texte}{en lettrine}{normales}
+
+{\fontencoding{\encodingdefault}
+\fontfamily{toto}
+\fontseries{\seriesdefault}
+\fontshape{\shapedefault}
+\selectfont
+Texte test en TOTO}
 
 \end{document}
