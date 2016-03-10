@@ -30,18 +30,21 @@ fontsize=10%
   %  \def\greinitialformat#1{{\lettrines #1}}
     
 
-\newfontfamily\malettrine[Scale=0.6]{toto}
-\renewcommand{\LettrineFontHook}{\malettrine\color{black}}
 
 
 %\newcommand{\toto}[1]
 %   {{\fontencoding{T1}\fontfamily{totofont}\selectfont #1}}
 %\toto{MonTexte}
 
+
+
+\newcommand{\montitre}[2]
+{
+\newfontfamily\malettrine[Scale=0.6]{#1}
+\renewcommand{\LettrineFontHook}{\malettrine\color{black}}
 \begin{center}
-\lettrine[lines=1]{Ceci est un texte en orné}{}{}
+\lettrine[lines=1]{#2}{}{}
 \end{center}
-
-
-
+}
+\montitre{toto}{Ceci est un beau titre AVAL}
 \end{document}
