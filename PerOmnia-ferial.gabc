@@ -1,4 +1,4 @@
-name: DeusInAdiutorium;
+name: Dialogus Præfatio ferialis;
 office-part: verset;
 %Compilation: gregorio DeusInAdiutorium.gabc;
 %Apercu: gedit DeusInAdiutorium.tex;
