@@ -16,23 +16,27 @@ fontsize=10%
 \date{avec baptêmes d'adultes}
 
 \makeindex
-\definecolor{rubrum}{rgb}{.6,0,0}
-\def\rubrum{\color{rubrum}}%%%%%%%mettre"\def\rubrum{\color{rubrum}}" pour avoir le texte adéquat en rouge
-\def\nigra{\color{black}}
-%    \redlines
-%    \definecolor{gregoriocolor}{rgb}{.6,0,0}
-%
-%\let\red\rubrum
+        \definecolor{rubrum}{rgb}{.6,0,0}
+        \def\rubrum{\color{rubrum}}%%%%%%%mettre"\def\rubrum{\color{rubrum}}" pour avoir le texte adéquat en rouge
+        \def\nigra{\color{black}}
+        %    \redlines
+        %    \definecolor{gregoriocolor}{rgb}{.6,0,0}
+        %
+        %\let\red\rubrum
+        \newcommand{\rep}[2]{\versio{\R \textbf{#1}}{\R \textbf{#2}}}
+        \newcommand{\vers}[2]{\versio{\V {#1}}{\V {#2}}}
+
+
 
 \begin{document}
 
 
 \maketitle
-
-\newfontfamily\lettrines[Scale=1.3]{LettrinesPro800}
-    \def\gretextformat#1{{\fontsize{\taillepolice}{\taillepolice}\selectfont #1}}
-    \def\greinitialformat#1{{\lettrines #1}}
-
+\newpage
+        \newfontfamily\lettrines[Scale=1.3]{LettrinesPro800}
+            \def\gretextformat#1{{\fontsize{\taillepolice}{\taillepolice}\selectfont #1}}
+            \def\greinitialformat#1{{\lettrines #1}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \titre{Bénédiction du feu et du cierge}
 \vspace{0.5cm}
 \rubrica{Le Christ, "lumière du monde" (Jn,8,12) va illuminer tout homme cette nuit en sortant du tombeau, il va dissiper les ténèbres du péché}
@@ -94,9 +98,81 @@ O péché d'Adam qui devait se commettre pour être effacé par la mort du Chris
 \item{Les promesses rapportées par Isaïe, adressées au nouveau peuple élu}
 \item{Les recommandations que Moïse adresse à tous ceux qui feront ou renouvelleront les promesses de leur Baptême}
 \end{enumerate}
+
+
 \titre{Litanies des Saints}
 \rubrica{Avant la bénédiction de l'eau baptismale, et les baptêmes, invoquons tous nos aînés dans la Foi qui nous montrent l'exemple}
-\input{gabc/Litanies/litanies}
+\input{gabc/Litanies/litanies-1erePartie}
+
+\titre{Bénédiction de l'eau baptismale}
+\rubrica{Le prêtre chante une oraison puis une préface sur l'eau}
+0 Dieu, dont l'Esprit, à l'origine du
+monde, planait sur les eaux, pour
+leur donner déjà le pouvoir de nous
+sanctifier. 0 Dieu, qui en lavant
+par l'eau les crimes d'un monde coupable, avez donné, dans l'inondation
+même du déluge, une image de la
+régénération, alors que dans le mystère d'un seul et même élément se voyaient tout ensemble et la. ruine
+du vice et le principe de la vertu.
+Regardez, Seigneur, la face de votre
+Eglise et multipliez en elle vos régénération
+
+\rubrica{Le célébrant, de la main étendue, divise l'eau en forme de croix. Ainsi
+Dieu en créant le monde avait séparé les eaux d'en-haut de celles d'en bas}
+Qu'il vienne, par la secrète union
+de sa divinité, féconder cette
+eau préparée pour la régénération des hommes
+
+\rubrica{Il touche l'eau avec la main. Le Christ, en touchant l'eau du Jourdain,
+lui a enlevé toute puissance nocive; elle est devenue le signe et l'instrument
+de notre délivrance.}
+Que cette eau soit
+une source de vie, une eau qui
+régénère, une onde purifiante, afin
+que tous ceux qui seront lavés dans
+ce bain salutaire, reçoivent, par l'opération du Saint-Esprit qui agira en
+eux, la grâce d'une entière purification.
+
+\rubrica{Il fait trois signes de croix sur l'eau, en disant:}
+Je te bénis donc, eau créée, par
+le Dieu \+ vivant, par le Dieu
+vrai, par le Dieu \+ saint : par \+ 
+le Dieu, dont la parole te sépara de
+la terre à l'origine et dont l'Esprit planait sur toi.
+
+\rubrica{Ici, il divise l'eau avec la main et en jette vers les quatre parties du monde,
+Ce geste rappelle le fleuve qui, sorti de l' Eden, se divisait en quatre branches,
+pour arroser « la terre entière »}
+
+\rubrica{Il plonge ensuite trois fois le cierge dans l'eau, pour rappeler que le Christ
+a sanctifié les eaux en descendant dans le Jourdain et que la Sainte Trinité
+s'est manifestée à ce moment; il chante à chaque fois}
+Que la vertu du Saint-Esprit
+descende sur toute l'eau de cette fontaine.
+
+\rubrica{Puis le prêtre extrait de l'eau qui servira tout le temps pascal, et termine la consécration de l'eau par l'infusion des Huiles consacrées le Jeudi Saint par l'évêque}
+
+\versio{Sanctificétur et fecundétur
+fons iste Oleo sal\'utis renascéntibus ex eo, in vitam aetérnam.}
+{Que cette fontaine soit sanctifiée et fécondée par l'Huile du salut pour ceux qui y renaîtront à la vie éternelle.}
+\rep{Amen.}{Ainsi soit-il.}
+
+\versio{
+Infusio Chrismatis D\'omini 
+nostri Jesu Christi, et Spiritus 
+Sancti Paracliti, fiat in n\'omine 
+sanctae Trinit\'atis.}
+{Que l'infusion du Chrême de notre Seigneur Jésus-Christ et de l'Esprit-Saint Consolateur, se fasse au nom de la sainte Trinité.}
+\rep{Amen.}{Ainsi soit-il.}
+
+\versio{
+Commixtio Chrismatis sanctificati\'onis, et Olei uncti\'nis, et aquae bapt\'ismatis, p\'ariter fiat in n\'omine Pa \+ tris, et
+Fi \+ lii, et Spiritus \+ Sancti.}{
+Que le mélange du Chrême sanctifiant, de l'Huile d'onction et
+de l'eau baptismale s'opère également
+au nom du Père, \+ et du Fils, \+ et
+du Saint \+ Esprit. }
+
 
 %\begin{center}
 %\includegraphics[height=5.5cm]{images/SainteFamille}
