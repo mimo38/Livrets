@@ -1,0 +1,774 @@
+Sortie :
+========
+
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238) 
+ restricted \write18 enabled.
+(/opt/musite/static/docs/tmp/Livrets/VeilleePascale.tex
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 29 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2015/07/02 v3.18 KOMA-Script document class (article)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package scrlfile, 2015/07/02 v3.18 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize12pt.clo)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
+Package typearea, 2015/07/02 v3.18 KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+)) (./lib/gredocument.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def))
+(/usr/share/texmf/tex/latex/lm/lmodern.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))))
+(./lib/adaptateur.sty) (./lib/paracol.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/libertine.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3unicode-data.def)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload.sty
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/luatex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/luatex-loader.sty
+(/usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)))
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-compat.sty)
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-modutils.sty
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-loader.sty
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase.loader.lua))
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/modutils.lua))
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-regs.sty)
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-attr.sty
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/attr.lua))
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-cctb.sty
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/cctb.lua))
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-mcb.sty
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/mcb.lua)))
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-main.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-log.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-fontloader.lua)(
+using write cache: /var/lib/texmf/luatex-cache/generic)(using read cache: /var/l
+ib/texmf/luatex-cache/generic /root/.texmf-var/luatex-cache/generic)
+luaotfload | main : fontloader loaded in 0.024 seconds
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-override.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-parsers.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-configuration.lu
+a)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-status.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-loaders.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-database.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-colors.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-features.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-letterspace.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-auxiliary.lua))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.lua)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-patches.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/euenc/eu2enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/euenc/eu2lmr.fd)(load luc: /var/lib/tex
+mf/luatex-cache/generic/fonts/otf/lmroman10-regular.luc))
+(/usr/share/texlive/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/share/texmf/tex/latex/tipa/t3enc.def(load luc: /var/lib/texmf/luatex-cache
+/generic/fonts/otf/lmromanslant10-regular.luc)(load luc: /var/lib/texmf/luatex-c
+ache/generic/fonts/otf/lmroman10-italic.luc)(load luc: /var/lib/texmf/luatex-cac
+he/generic/fonts/otf/lmroman10-bold.luc)
+(/usr/share/texlive/texmf-dist/tex/latex/euenc/eu2lmss.fd)(load luc: /var/lib/te
+xmf/luatex-cache/generic/fonts/otf/lmsans10-regular.luc)))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))(load luc: /var
+/lib/texmf/luatex-cache/generic/fonts/otf/linlibertine-r.luc)(load luc: /var/lib
+/texmf/luatex-cache/generic/fonts/otf/lmroman12-regular.luc)(load luc: /var/lib/
+texmf/luatex-cache/generic/fonts/otf/linlibertine-rb.luc)(load luc: /var/lib/tex
+mf/luatex-cache/generic/fonts/otf/linlibertine-ri.luc)(load luc: /var/lib/texmf/
+luatex-cache/generic/fonts/otf/linlibertine-rbi.luc)(load luc: /var/lib/texmf/lu
+atex-cache/generic/fonts/otf/linbiolinum-r.luc)(load luc: /var/lib/texmf/luatex-
+cache/generic/fonts/otf/linbiolinum-rb.luc)(load luc: /var/lib/texmf/luatex-cach
+e/generic/fonts/otf/linbiolinum-ri.luc)(load luc: /var/lib/texmf/luatex-cache/ge
+neric/fonts/otf/linbiolinum-rbo.luc)(load luc: /var/lib/texmf/luatex-cache/gener
+ic/fonts/otf/linlibertine-rz.luc)(load luc: /var/lib/texmf/luatex-cache/generic/
+fonts/otf/linlibertine-rzi.luc)
+*************************************************
+* fontspec warning: "icu-feature-not-exist-in-font"
+* 
+* OpenType feature 'Numbers=Monospaced,Lining' (+tnum) not available for font
+* 'LinLibertine_RZI' with script 'Latin' and language 'Default'.
+*************************************************
+
+*************************************************
+* fontspec warning: "icu-feature-not-exist-in-font"
+* 
+* OpenType feature 'Numbers=Monospaced,Lining' (+tnum) not available for font
+* 'LinLibertine_RZI' with script 'Latin' and language 'Default'.
+*************************************************
+(load luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/linlibertine-dr.luc)(lo
+ad luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/linlibertine-m.luc)(load l
+uc: /var/lib/texmf/luatex-cache/generic/fonts/otf/linlibertine-mb.luc)(load luc:
+ /var/lib/texmf/luatex-cache/generic/fonts/otf/linlibertine-mo.luc)(load luc: /v
+ar/lib/texmf/luatex-cache/generic/fonts/otf/linlibertine-mbo.luc)(load luc: /var
+/lib/texmf/luatex-cache/generic/fonts/otf/linbiolinum-k.luc)(load luc: /var/lib/
+texmf/luatex-cache/generic/fonts/otf/linlibertine-i.luc)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_R.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinBiolinum_R.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinBiolinum_K.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_I.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LKey.tex))
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty)))
+(/usr/share/texlive/texmf-dist/tex/luatex/luamplib/luamplib.sty
+(/usr/share/texlive/texmf-dist/tex/luatex/luamplib/luamplib.lua))
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex))
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-main.tex
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex.lua)
+(VeilleePascale.gaux)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-spaces.tex)(load luc: /var/
+lib/texmf/luatex-cache/generic/fonts/otf/greciliae.luc)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-chars.tex)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-signs.tex)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-syllable.tex)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-symbols.tex(load luc: /var/
+lib/texmf/luatex-cache/generic/fonts/otf/greextra.luc))
+(/usr/share/texmf/tex/luatex/gregoriotex/gsp-default.tex)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-nabc.tex)))
+(./lib/lyluatex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/keycommand/keycommand.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty)))
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriosyms.sty
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-symbols.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/hyph-utf8/luatex-hyphen.lua))
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-french.ldf
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia-frpt.lua))
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latin.ldf
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/babelsh.def))
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(./lib/autres.sty) (./lib/dialogues.sty) (./lib/mudoc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pbox/pbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty))
+Writing index file VeilleePascale.idx
+) (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/ppluatex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/transparent.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/ltablex/ltablex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/lettrine/lettrine.sty
+Loading lettrine.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/lettrine/lettrine.cfg)))
+(./lib/psaume.sty)
+
+Package GregorioTeX Warning: \greredlines is deprecated.
+(GregorioTeX)                Use \gresetlinecolor{gregoriocolor} instead on inpu
+t line 22.
+
+(./VeilleePascale.aux) (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/share/texmf/tex/latex/tipa/t3cmr.fd)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/scripts/oberdiek/pdftexcmds.lua))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd)
+(/usr/share/texmf/tex/latex/lm/omllmm.fd)
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd)
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd) [1{/var/lib/texmf/fonts/map/pdftex/up
+dmap/pdftex.map}]
+luaotfload | db : Reload initiated (formats: otf,ttf,ttc,dfont); reason: "Font LettrinesPro800 not found.".(load luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/lettri
+nespro800.luc) [2]
+
+Package GregorioTeX Warning: \gresetfirstannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 78.
+
+
+Overfull \hbox (336.88069pt too wide) detected at line 78
+[]
+
+Package GregorioTeX Warning: \gresetsecondannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 78.
+
+
+Overfull \hbox (336.88069pt too wide) detected at line 78
+[]
+
+Package GregorioTeX Warning: \includescore is deprecated.
+(GregorioTeX)                Use \gregorioscore instead on input line 78.
+
+(./gabc/Autre/PerOmnia-ferial-4_0_0-beta2.gtex
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+5.
+
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+5.
+
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+5.
+
+) [3]
+Underfull \hbox (badness 1496) in paragraph at lines 98--99
+[][]\EU2/LinLibertine(0)/m/n/12 Les pro-messes rap-por-tées par Isaïe, adres-
+sées au nou-veau
+(./gabc/Litanies/litanies-1erePartie.tex
+
+Package GregorioTeX Warning: \gresetfirstannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 31.
+
+
+Overfull \hbox (336.88069pt too wide) detected at line 31
+[]
+
+Package GregorioTeX Warning: \gresetsecondannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 31.
+
+
+Overfull \hbox (336.88069pt too wide) detected at line 31
+[]
+
+Package GregorioTeX Warning: \includescore is deprecated.
+(GregorioTeX)                Use \gregorioscore instead on input line 31.
+
+(./gabc/litanies/kyrie-4_0_0-beta2.gtex
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+5.
+
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+5.
+
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+5.
+
+)
+Overfull \hbox (7.04765pt too wide) in paragraph at lines 37--37
+[][]\EU2/LinLibertine(0)/m/n/12 Fili Re-démp-tor mundi \EU2/LinLibertine(0)/bx
+/n/12 De\EU2/LinLibertine(0)/m/n/12 us,  |  []
+[4]
+Overfull \hbox (0.43562pt too wide) in paragraph at lines 45--45
+[][]\EU2/LinLibertine(0)/m/n/12 Sancta Trí-ni-tas unus \EU2/LinLibertine(0)/bx
+/n/12 De\EU2/LinLibertine(0)/m/n/12 us,  |  []
+
+Overfull \hbox (10.47163pt too wide) in paragraph at lines 73--73
+[][]\EU2/LinLibertine(0)/m/n/12 Om-nes sancti An-geli, et Arch\EU2/LinLibertine
+(0)/bx/n/12 án\EU2/LinLibertine(0)/m/n/12 geli,
+
+Underfull \hbox (badness 4366) in paragraph at lines 73--73
+[][]\EU2/LinLibertine(0)/m/n/12 Tous les saints Anges et Ar-
+
+Overfull \hbox (1.93163pt too wide) in paragraph at lines 77--77
+[][]\EU2/LinLibertine(0)/m/n/12 Om-nes sancti bea-tó-rum Spi-rí-tuum
+
+Overfull \hbox (24.67967pt too wide) in paragraph at lines 89--89
+[][]\EU2/LinLibertine(0)/m/n/12 Om-nes sancti Pa-triár-chæ, et Pro\EU2/LinLib
+ertine(0)/bx/n/12 phé\EU2/LinLibertine(0)/m/n/12 tæ,
+[5]
+Overfull \hbox (24.33163pt too wide) in paragraph at lines 157--157
+[][]\EU2/LinLibertine(0)/m/n/12 Om-nes sancti Apó-stoli, et Evange\EU2/LinLibe
+rtine(0)/bx/n/12 lí\EU2/LinLibertine(0)/m/n/12 stæ,
+
+Overfull \hbox (8.37167pt too wide) in paragraph at lines 257--257
+[][]\EU2/LinLibertine(0)/m/n/12 Om-nes sancti Sa-cer-dó-tes, et Le\EU2/LinLibe
+rtine(0)/bx/n/12 ví\EU2/LinLibertine(0)/m/n/12 tæ,
+
+Overfull \hbox (8.41965pt too wide) in paragraph at lines 261--261
+[][]\EU2/LinLibertine(0)/m/n/12 Om-nes sancti Mó-na-chi, et Ere\EU2/LinLiberti
+ne(0)/bx/n/12 mí\EU2/LinLibertine(0)/m/n/12 tæ,
+[6]
+Overfull \hbox (9.44765pt too wide) in paragraph at lines 293--293
+[][]\EU2/LinLibertine(0)/m/n/12 Toutes les saintes Vierges et Veuves,[][][][] 
+) <Crux.pdf, id=28, 1428.33624pt x 1428.33624pt> <use Crux.pdf> <use Crux.pdf>
+<use Crux.pdf> [7]
+Underfull \hbox (badness 4647) in paragraph at lines 165--165
+[][]\EU2/LinLibertine(0)/m/n/12 Que l’in-fu-sion du Chrême de
+
+Overfull \hbox (2.53165pt too wide) in paragraph at lines 165--165
+\EU2/LinLibertine(0)/m/n/12 l’Esprit-Saint Conso-la-teur, se fasse
+<use Crux.pdf> <use Crux.pdf> <use Crux.pdf>
+Underfull \hbox (badness 2409) in paragraph at lines 174--174
+\EU2/LinLibertine(0)/m/n/12 bap-tí-sma-tis, pá-ri-ter fiat in nó-
+<use Crux.pdf> <use Crux.pdf> <use Crux.pdf>
+Underfull \hbox (badness 2913) in paragraph at lines 174--174
+\EU2/LinLibertine(0)/m/n/12 l’eau bap-tis-male s’opère éga-le-
+[8]
+Underfull \hbox (badness 1077) in paragraph at lines 179--181
+[][]\EU2/LinLibertine(0)/m/sc/12 Le cé-lé-brant: \EU2/LinLibertine(0)/m/n/12 
+- Croyez-vous en Dieu, le Père tout-puissant,
+(./gabc/Litanies/litanies-2emePartie.tex
+
+Package GregorioTeX Warning: \gresetfirstannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 3.
+
+
+Overfull \hbox (336.88069pt too wide) detected at line 3
+[]
+
+Package GregorioTeX Warning: \gresetsecondannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 3.
+
+
+Overfull \hbox (336.88069pt too wide) detected at line 3
+[]
+
+Package GregorioTeX Warning: \includescore is deprecated.
+(GregorioTeX)                Use \gregorioscore instead on input line 3.
+
+(./gabc/litanies/propitius-4_0_0-beta2.gtex) [9]
+Underfull \hbox (badness 2753) in paragraph at lines 45--45
+[][]\EU2/LinLibertine(0)/m/n/12 Du fléau des trem-ble-ments de
+
+Underfull \hbox (badness 1448) in paragraph at lines 63--63
+[][]\EU2/LinLibertine(0)/m/n/12 Par le mys-tère de votre sainte
+
+Overfull \hbox (4.49965pt too wide) in paragraph at lines 87--87
+[][]\EU2/LinLibertine(0)/m/n/12 Per sanc-tam Re-sur-rec-ti\EU2/LinLibertine(0)/
+m/it/12 ó-nem \EU2/LinLibertine(0)/bx/n/12 tu\EU2/LinLibertine(0)/m/n/12 am,
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[][]\EU2/LinLibertine(0)/m/n/12 Per ad-mi-rá-bi-lem Ascen-si\EU2/LinLibertine(
+0)/m/it/12 ó-nem
+[10]
+Overfull \hbox (24.11568pt too wide) in paragraph at lines 95--95
+[][]\EU2/LinLibertine(0)/m/n/12 Per ad-vén-tum Spí-ri-tus San\EU2/LinLibertin
+e(0)/m/it/12 cti pa\EU2/LinLibertine(0)/bx/n/12 rá\EU2/LinLibertine(0)/m/n/12 
+c1iti,
+
+Package GregorioTeX Warning: \gresetfirstannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 104.
+
+
+Overfull \hbox (336.88069pt too wide) detected at line 104
+[]
+
+Package GregorioTeX Warning: \gresetsecondannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 104.
+
+
+Overfull \hbox (336.88069pt too wide) detected at line 104
+[]
+
+Package GregorioTeX Warning: \includescore is deprecated.
+(GregorioTeX)                Use \gregorioscore instead on input line 104.
+
+(./gabc/litanies/peccatores-4_0_0-beta2.gtex)
+Overfull \hbox (15.25967pt too wide) in paragraph at lines 122--122
+\EU2/LinLibertine(0)/m/n/12 gere, et con-ser-váre \EU2/LinLibertine(0)/m/it/12
+ di\EU2/LinLibertine(0)/bx/n/12 gné\EU2/LinLibertine(0)/m/n/12 ris, |  []
+
+Underfull \hbox (badness 4013) in paragraph at lines 126--126
+\EU2/LinLibertine(0)/m/n/12 nes ec-cle-siá-sti-cos ór-di-nes \EU2/LinLibertin
+e(0)/bx/n/12 ’ \EU2/LinLibertine(0)/m/n/12 in
+
+Overfull \hbox (14.73564pt too wide) in paragraph at lines 126--126
+\EU2/LinLibertine(0)/m/n/12 sancta re-li-gióne con-ser-váre \EU2/LinLibertine
+(0)/m/it/12 di\EU2/LinLibertine(0)/bx/n/12 gné\EU2/LinLibertine(0)/m/n/12 ris,
+
+
+Overfull \hbox (10.01566pt too wide) in paragraph at lines 126--126
+[][]\EU2/LinLibertine(0)/m/n/12 Dai-gnez main-te-nir dans votre sainte
+
+Overfull \hbox (5.82765pt too wide) in paragraph at lines 134--134
+[][][] \EU2/LinLibertine(0)/m/n/12 chri-stiá-
+
+Overfull \hbox (5.42766pt too wide) in paragraph at lines 134--134
+[][]\EU2/LinLibertine(0)/m/n/12 Dai-gnez don-ner aux Rois et Princes
+
+Underfull \hbox (badness 2521) in paragraph at lines 134--134
+\EU2/LinLibertine(0)/m/n/12 chré-tiens la paix et une vraie
+
+Underfull \hbox (badness 4341) in paragraph at lines 142--142
+\EU2/LinLibertine(0)/m/n/12 Ec-clé-siæ re-vo-cáre, \EU2/LinLibertine(0)/bx/n
+/12 ’ \EU2/LinLibertine(0)/m/n/12 et in-fi-dé-
+[11]
+Underfull \hbox (badness 2326) in paragraph at lines 146--146
+[][]\EU2/LinLibertine(0)/m/n/12 Dai-gnez nous for-ti-fier et nous
+
+Underfull \hbox (badness 1377) in paragraph at lines 150--150
+[][]\EU2/LinLibertine(0)/m/n/12 Dai-gnez éle-ver nos es-prits aux
+
+Underfull \hbox (badness 1762) in paragraph at lines 154--154
+[][]\EU2/LinLibertine(0)/m/n/12 Ut óm-ni-bus be-ne-fac-tó-ri-bus no-
+
+Underfull \hbox (badness 2376) in paragraph at lines 154--154
+[][]\EU2/LinLibertine(0)/m/n/12 Dai-gnez ré-com-pen-ser tous nos
+
+Underfull \hbox (badness 1845) in paragraph at lines 158--158
+\EU2/LinLibertine(0)/m/n/12 stró-rum ab ætérna dam-na-tióne
+
+Underfull \hbox (badness 3701) in paragraph at lines 162--162
+[][]\EU2/LinLibertine(0)/m/n/12 Dai-gnez nous don-ner et nous
+
+Overfull \hbox (4.36765pt too wide) in paragraph at lines 166--166
+\EU2/LinLibertine(0)/m/n/12 ré-quiem ætér-nam do-náre \EU2/LinLibertine(0)/
+m/it/12 di\EU2/LinLibertine(0)/bx/n/12 gné\EU2/LinLibertine(0)/m/n/12 ris,
+
+Package GregorioTeX Warning: \gresetfirstannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 205.
+
+
+Overfull \hbox (336.88069pt too wide) detected at line 205
+[]
+
+Package GregorioTeX Warning: \gresetsecondannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 205.
+
+
+Overfull \hbox (336.88069pt too wide) detected at line 205
+[]
+
+Package GregorioTeX Warning: \includescore is deprecated.
+(GregorioTeX)                Use \gregorioscore instead on input line 205.
+
+(./gabc/litanies/conclusion-4_0_0-beta2.gtex [12])) [13]
+
+Package GregorioTeX Warning: \gresetfirstannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 217.
+
+
+Overfull \hbox (336.88069pt too wide) detected at line 217
+[]
+
+Package GregorioTeX Warning: \gresetsecondannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 217.
+
+
+Overfull \hbox (336.88069pt too wide) detected at line 217
+[]
+
+Package GregorioTeX Warning: \includescore is deprecated.
+(GregorioTeX)                Use \gregorioscore instead on input line 217.
+
+(./gabc/Kyriale/Kyrie-I-4_0_0-beta2.gtex
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+5.
+
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+5.
+
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+5.
+
+)
+
+Package GregorioTeX Warning: \gresetfirstannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 222.
+
+
+Overfull \hbox (336.88069pt too wide) detected at line 222
+[]
+
+Package GregorioTeX Warning: \gresetsecondannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 222.
+
+
+Overfull \hbox (336.88069pt too wide) detected at line 222
+[]
+
+Package GregorioTeX Warning: \includescore is deprecated.
+(GregorioTeX)                Use \gregorioscore instead on input line 222.
+
+(./gabc/Kyriale/Gloria-I-4_0_0-beta2.gtex
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+5.
+
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+5.
+
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+5.
+
+[14] [15]) [16]
+
+Package GregorioTeX Warning: \gresetfirstannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 232.
+
+
+Overfull \hbox (329.68466pt too wide) detected at line 232
+[]
+
+Package GregorioTeX Warning: \gresetsecondannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 232.
+
+
+Overfull \hbox (329.68466pt too wide) detected at line 232
+[]
+
+Package GregorioTeX Warning: \includescore is deprecated.
+(GregorioTeX)                Use \gregorioscore instead on input line 232.
+
+(./gabc/Alleluia/Confitemini_Quoniam_SabbatoSancto_jubilus-4_0_0-beta2.gtex
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+5.
+
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+5.
+
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+5.
+
+) [17] <use Crux.pdf> [18]
+Underfull \hbox (badness 1048) in paragraph at lines 281--281
+[][][][]\EU2/LinLibertine(0)/m/n/12 R[][] Ils sont tour-nés vers le Sei-
+
+Underfull \hbox (badness 1178) in paragraph at lines 285--285
+[][][][]\EU2/LinLibertine(0)/m/n/12 V[][] Ren-dons grâces au Sei-gneur
+[19]
+
+Package GregorioTeX Warning: \gresetfirstannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 308.
+
+
+Overfull \hbox (334.24467pt too wide) detected at line 308
+[]
+
+Package GregorioTeX Warning: \gresetsecondannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 308.
+
+
+Overfull \hbox (334.24467pt too wide) detected at line 308
+[]
+
+Package GregorioTeX Warning: \includescore is deprecated.
+(GregorioTeX)                Use \gregorioscore instead on input line 308.
+
+(./gabc/Kyriale/Sanctus-I-4_0_0-beta2.gtex
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+5.
+
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+5.
+
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+5.
+
+) [20] <use Crux.pdf> <use Crux.pdf>
+Overfull \hbox (0.82759pt too wide) in paragraph at lines 321--321
+\EU2/LinLibertine(0)/m/n/12 prit du pain dans ses mains saintes
+
+Underfull \hbox (badness 1122) in paragraph at lines 321--321
+\EU2/LinLibertine(0)/m/n/12 et ado-rables, et, les yeux le-vés
+
+Overfull \hbox (5.07565pt too wide) in paragraph at lines 321--321
+\EU2/LinLibertine(0)/m/n/12 tout-puissant, vous ren-dant grâces,
+<use Crux.pdf> <use Crux.pdf>
+Underfull \hbox (badness 1122) in paragraph at lines 348--348
+[][]\EU2/LinLibertine(9)/m/sc/12 Hic est enim Ca-lix Sán-gui-nis
+
+Underfull \hbox (badness 2368) in paragraph at lines 348--348
+\EU2/LinLibertine(9)/m/sc/12 Sang, le Sang de l'Al-liance
+
+Underfull \hbox (badness 2452) in paragraph at lines 348--348
+\EU2/LinLibertine(9)/m/sc/12 nombre en ré-mis-sion des pé-
+[21] <use Crux.pdf> <use Crux.pdf>
+Underfull \hbox (badness 1270) in paragraph at lines 361--362
+[][]\EU2/LinLibertine(0)/m/n/12 Nous vous en sup-plions, Dieu tout-puissant, fa
+ites por-ter ces
+<use Crux.pdf> <use Crux.pdf> <use Crux.pdf> <use Crux.pdf> <use Crux.pdf>
+<use Crux.pdf> <use Crux.pdf> <use Crux.pdf> <use Crux.pdf> <use Crux.pdf>
+[22]
+Underfull \hbox (badness 1005) in paragraph at lines 386--386
+[][]\EU2/LinLibertine(0)/m/n/10.95 Ô très grand amour de Dieu pour les hommes
+! À ceux qui l’avaient
+
+Overfull \hbox (4.88362pt too wide) in paragraph at lines 391--391
+[][]\EU2/LinLibertine(0)/m/n/12 Oré-mus. Præ-cép-tis sa-lu-tá-ri-bus mó-
+
+Underfull \hbox (badness 1960) in paragraph at lines 397--397
+[][]\EU2/LinLibertine(0)/m/n/12 Pa-ter no-ster, qui es in cæ-lis :
+
+Overfull \hbox (21.0837pt too wide) in paragraph at lines 397--397
+\EU2/LinLibertine(0)/m/n/12 notre pain de chaque jour; pardonnez-
+[23]
+Underfull \hbox (badness 1983) in paragraph at lines 413--413
+[][]\EU2/LinLibertine(0)/m/n/12 Sei-gneur, je ne suis pas digne
+
+Underfull \hbox (badness 1077) in paragraph at lines 416--416
+\EU2/LinLibertine(0)/m/n/10.95 que ce-lui qui ne com-mu-nie pas se re-tire\EU2/
+LinLibertine(0)/m/it/10.95 . Au-jourd’hui l’Église est plus
+[24]
+
+Package GregorioTeX Warning: \gresetfirstannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 421.
+
+
+Overfull \hbox (334.43668pt too wide) detected at line 421
+[]
+
+Package GregorioTeX Warning: \gresetsecondannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 421.
+
+
+Overfull \hbox (334.43668pt too wide) detected at line 421
+[]
+
+Package GregorioTeX Warning: \includescore is deprecated.
+(GregorioTeX)                Use \gregorioscore instead on input line 421.
+
+(./gabc/Antienne/AlleluiaAlleluiaAlleluia-4_0_0-beta2.gtex
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+5.
+
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+5.
+
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+5.
+
+)
+
+Package GregorioTeX Warning: \gresetfirstannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 423.
+
+
+Overfull \hbox (332.42868pt too wide) detected at line 423
+[]
+
+Package GregorioTeX Warning: \gresetsecondannotation is deprecated.
+(GregorioTeX)                Use \greannotation instead on input line 423.
+
+
+Overfull \hbox (332.42868pt too wide) detected at line 423
+[]
+
+Package GregorioTeX Warning: \includescore is deprecated.
+(GregorioTeX)                Use \gregorioscore instead on input line 423.
+
+(./gabc/Psaume/Intonation-150-6F-4_0_0-beta2.gtex
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+4.
+
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+4.
+
+
+Package GregorioTeX Warning: \greinitialformat is deprecated.
+(GregorioTeX)                Use \grechangestyle{initial} instead on input line 
+4.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--258
+[]
+) (./gabc/Psaume/Ps-150-t.tex
+Underfull \hbox (badness 4328) in paragraph at lines 8--8
+[]\EU2/LinLibertine(0)/m/n/12 2.  Lau-dáte eum in vir-tú-ti-\EU2/LinLibertine
+(0)/m/it/12 bus
+
+Underfull \hbox (badness 2269) in paragraph at lines 8--8
+\EU2/LinLibertine(0)/bx/n/12 e\EU2/LinLibertine(0)/m/n/12 ius: [] *[] lau-dáte
+ eum se-cún-dum
+
+Underfull \hbox (badness 3428) in paragraph at lines 12--12
+\EU2/LinLibertine(0)/m/n/12 *[] lau-dáte eum in psal-té-ri\EU2/LinLibertine(0
+)/m/it/12 o\EU2/LinLibertine(0)/m/n/12 , \EU2/LinLibertine(0)/m/it/12 et
+
+Underfull \hbox (badness 1033) in paragraph at lines 12--12
+[]\EU2/LinLibertine(0)/m/n/12 3. Louez-le au son de la trom-
+
+Overfull \hbox (2.20363pt too wide) in paragraph at lines 20--20
+[]\EU2/LinLibertine(0)/m/n/12 5. Louez-le avec des tim-bales écla-
+) (./gabc/Psaume/Gloria-t.tex
+Underfull \hbox (badness 1033) in paragraph at lines 4--4
+\EU2/LinLibertine(0)/m/n/12 ce-ment, main-te-nant et tou-jours
+
+Underfull \hbox (badness 2205) in paragraph at lines 4--4
+\EU2/LinLibertine(0)/m/n/12 et dans les siècles des siècles.
+) [25] (./VeilleePascale.aux))
+LuaTeX warning: \pdfdraftmode enabled, not changing output pdf
+
+
+
+
+−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+
+
+
+Erreurs :
+=========
+
+
+
