@@ -1,0 +1,47 @@
+\documentclass[%
+fontsize=11%
+,a5paper%
+,DIV=15%
+]{scrartcl}
+%scrartcl
+
+
+
+\usepackage{gredocument}
+\usepackage{adaptateur}
+\usepackage{psaume}
+
+\title{\centrer{\huge{Veillée pascale}}}
+\author{\includegraphics[height=10cm]{PâquesN-B.jpg}}
+\date{la nuit de la Résurrection\\ avec baptêmes d'adultes}
+
+\makeindex
+        \definecolor{rubrum}{rgb}{.6,0,0}
+        \def\rubrum{\color{rubrum}}%%%%%%%mettre"\def\rubrum{\color{rubrum}}" pour avoir le texte adéquat en rouge
+        \def\nigra{\color{black}}
+            \redlines
+            \definecolor{gregoriocolor}{rgb}{.6,0,0}
+        %
+        %\let\red\rubrum
+        \newcommand{\rep}[2]{\versio{\R \textbf{#1}}{\R \textbf{#2}}}
+        \newcommand{\vers}[2]{\versio{\V {#1}}{\V {#2}}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\pageblanche
+
+        \newfontfamily\lettrines[Scale=1.3]{LettrinesPro800}
+            \def\gretextformat#1{{\fontsize{\taillepolice}{\taillepolice}\selectfont #1}}
+            \def\greinitialformat#1{{\lettrines #1}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cantus{Antienne}{ExsurgeDomine}{}{}
+
+\newcommand[0]{\litanies}{
+\input{gabc/Litanies/litanies}}
+\litanies[rogations=oui]{}
+
+\end{document}
