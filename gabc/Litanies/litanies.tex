@@ -649,35 +649,35 @@ Orémus.}{%
 Prions.}
 
 %%%commande pour corriger un bug dû aux environnements de langue (décalage de la lettrine dans la marge, et donc superposition du texte)
-\newcommand{\lettrinea}[2]{%
-\renewcommand{\versio}[3][1]{%
-	{\parindent=0pt
-	\begin{paracol}{2}
-	\ensurevspace{#1\baselineskip}
-	\switchcolumn\switchcolumn*
- 	%\begin{latin}%
- #2\looseness=-1 %\end{latin}
-	\switchcolumn
-	%\begin{french}%
- #3\looseness=-1 %\end{french}
-	\end{paracol}%
-	}%
-}
-\lettrine{#1}{#2}
-\renewcommand{\versio}[3][1]{%
-	{\parindent=0pt
-	\begin{paracol}{2}
-	\ensurevspace{#1\baselineskip}
-	\switchcolumn\switchcolumn*
- 	\begin{latin}%
- #2\looseness=-1 \end{latin}
-	\switchcolumn
-	\begin{french}%
- #3\looseness=-1 \end{french}
-	\end{paracol}%
-	}%
-}
-}
+%\newcommand{\lettrinea}[2]{%
+%\renewcommand{\versio}[3][1]{%
+%	{\parindent=0pt
+%	\begin{paracol}{2}
+%	\ensurevspace{#1\baselineskip}
+%	\switchcolumn\switchcolumn*
+% 	%\begin{latin}%
+% #2\looseness=-1 %\end{latin}
+%	\switchcolumn
+%	%\begin{french}%
+% #3\looseness=-1 %\end{french}
+%	\end{paracol}%
+%	}%
+%}
+%\lettrine{#1}{#2}
+%\renewcommand{\versio}[3][1]{%
+%	{\parindent=0pt
+%	\begin{paracol}{2}
+%	\ensurevspace{#1\baselineskip}
+%	\switchcolumn\switchcolumn*
+% 	\begin{latin}%
+% #2\looseness=-1 \end{latin}
+%	\switchcolumn
+%	\begin{french}%
+% #3\looseness=-1 \end{french}
+%	\end{paracol}%
+%	}%
+%}
+%}
 	
 \traduire{%
 \lettrine{D}{eus}, cui próprium est miseréri semper et párcere~: súscipe deprecatiónem nostram~; ut nos, et omnes fámulos tuos, quos delictórum cátena constríngit, miserátio tuæ pietátis cleménter absólvat.}{%
@@ -737,7 +737,7 @@ Prions.}
 
 \traduire{%
 \textbf{\R~Amen.}}{%
-\textbf{\R~\ains}i}
+\textbf{\R~\ainsi}}
 
 \traduire{%
 \V~Et fidélium ánimæ per misericórdiam Dei requiéscant in pace.}{%
