@@ -1,73 +1,81 @@
-% Afficher des recommendations concernant la syntaxe.
-\RequirePackage[orthodox,l2tabu]{nag}
-\RequirePackage{luatex85}
-% Paramètres du document.
 \documentclass[%
-a5paper%                       Taille de page.
-,11pt%                         Taille de police.
-,DIV=15%                       Plus grand => des marges plus petites.
-,titlepage=on%                 Faut-il une page de titre ?
-,headings=optiontoheadandtoc%  Effet des paramètres optionnels de section.
-,headings=small%
-,parskip=false%
-,openany%
-]{scrbook}
-\renewcommand*\partheademptypage{\thispagestyle{empty}}
-\newcounter{facteur}\setcounter{facteur}{17}%%%%%%%%%%%%%% Paramètre pour la taille globale des partitions. par défaut~: 17
-%\usepackage{geometry}
-\usepackage{gredoc,mudoc,lyluatex}
-\usepackage{pdfpages,transparent,array,ltablex}
+fontsize=14%
+,a4paper%
+,DIV=15%
+]{scrartcl}
+%scrartcl
 
-%%%%%%%%%%%%%%%%%%%%%%% Paramètres variables %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Taille des partitions grégoriennes.                                                      %%
-%\grechangedim{overhepisemalowshift}{.7mm}{scalable}
-%\grechangedim{hepisemamiddleshift}{1.4mm}{scalable}
-%\grechangedim{overhepisemahighshift}{2.1mm}{scalable}
-%\grechangedim{vepisemahighshift}{2.1mm}{scalable}
-%\grechangestafflinethickness{50} %%% epaisseur des lignes
-\grechangestaffsize{\value{facteur}}%%%%% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Par souci de clarté, la définition des commandes est reportée dans un document annexe.
 
-%\addtolength{\voffset}{2mm}\addtolength{\headsep}{-2mm}
-%\setlength{\extrarowheight}{2mm}
 
-\addto\captionsfrench{%
-  \renewcommand{\indexname}{Index des chants}%
-}
+\usepackage{gredocument}
+\usepackage{adaptateur}
+\usepackage{psaume}
+\pagestyle{empty}
+\title{\centrer{\huge{Veillée pascale}}}
+\author{\includegraphics[height=10cm]{PâquesN-B.jpg}}
+\date{la nuit de la Résurrection\\ avec baptêmes d'adultes}
 
-\pdfcompresslevel=9
-
-\newcommand{\lieu}[1]{\hfill\linebreak[3]\hspace*{\stretch{1}}\nolinebreak\mbox{\emph{(#1)}}}
-
-\newcommand{\commandement}[1]{\noindent\textbf{#1}}
-
-\newcommand{\schola}[1]{}\newcommand{\foule}[1]{#1}
-\providecommand{\dest}{foule}
-
-\newcommand{\bgimage}[1]{%
-\raisebox{-.45\paperheight}[0pt][0pt]{%
-  \transparent{0.3}%
-  \includegraphics[width=.7\paperwidth,height=.7\paperheight,keepaspectratio=true]{img/#1}%
-  }%
-}
-
-\def\arraystretch{1.2}
-
+\makeindex
+        \definecolor{rubrum}{rgb}{.6,0,0}
+        \def\rubrum{\color{rubrum}}%%%%%%%mettre"\def\rubrum{\color{rubrum}}" pour avoir le texte adéquat en rouge
+        \def\nigra{\color{black}}
+            %\redlines
+            \definecolor{gregoriocolor}{rgb}{.6,0,0}
+        %
+        %\let\red\rubrum
+        \newcommand{\rep}[2]{\versio{\R \textbf{#1}}{\R \textbf{#2}}}
+        \newcommand{\vers}[2]{\versio{\V {#1}}{\V {#2}}}
 \newcommand{\reponsegras}[2]{
-\versio{\textbf{#1}}{{#2}}
-}
+\versio{\textbf{#1}}{\textbf{#2}}}
 
-\title{Jubilé de Notre-Dame de Fontpeyrine}
-\date{}
 
-\let\oldaddchap\addchap
-\def\addchap#1{\oldaddchap{#1}\markright{Pèlerinage du Christ-Roi}}
-
-\def\blindsection#1{\markright{#1}\addcontentsline{toc}{section}{#1}}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%% Début du document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-test
+\newfontfamily\lettrines[Scale=1.3]{LettrinesPro800}
+    \def\gretextformat#1{{\fontsize{\taillepolice}{\taillepolice}\selectfont #1}}
+    \def\greinitialformat#1{{\lettrines #1}}
+    
+\title{Angelus}
+
+\reponsegras{\vb.\ Angelus Dómini nuntiávit Maríæ,}{\vb.~L'ange du Seigneur fit l'annonce à Marie,}
+\versio{\rb.\ Et concépit de Spíritu Sancto.}{\rb.\ Et elle a conçu du Saint-Esprit.}
+\reponsegras{Ave María…}{Je vous salue Marie…}
+\reponsegras{\vb.~Ecce Ancílla Dómini,}{\vb.~Voici la servante du Seigneur,}
+\versio{\rb. Fiat mihi secúndum verbum tuum.}{\rb. qu’il me soit fait selon votre parole.}
+\reponsegras{Ave María…}{Je vous salue Marie…}
+\reponsegras{\vb.~Et Verbum caro factum est,}{\vb.~Et le Verbe s'est fait chair,}
+\versio{\rb. Et habitávit in nobis.}{\rb. Et il a habité parmi nous.}
+\reponsegras{Ave María…}{Je vous salue Marie…}
+\reponsegras{\vb.~Ora pro nobis, sancta Dei Génetrix.}{\vb.~Priez pour nous sainte Mère de Dieu.}
+\versio{\vb.\ Ut digni efficiámur promissiónibus Christi.}{\vb.\ Afin que nous soyons rendus dignes des promesses de Notre-Seigneur Jésus-Christ.}
+\smallskip
+\versio{Orémus.}{Prions.}
+\reponsegras{Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde: ut, qui, Ángelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus; per passiónem eius et crucem, ad resurrectiónis glóriam perducámur.\\
+Per eúndem Christum Dóminum nóstrum.}
+{Daignez, Seigneur, répandre votre Grâce dans nos âmes,\\
+afin qu'ayant connu par la voix de l'Ange l'Incarnation de votre Fils Jésus-Christ,\\
+nous arrivions, par les mérites de sa Passion et de sa Croix,\\
+à la Gloire de la Résurrection.\\
+Par le même Jésus-Christ, Votre Fils, Notre Seigneur. }
+\versio{Amen.}{Ainsi soit-il.}
+
+%\chapter{Angélus chanté}
+\titre{L'Ange du Seigneur annonce}
+\chanson[position=2col,numero=1]{ly/Angelus/LAngeDuSeigneur}
+
+\titre{Par Dieu l'Archange fut envoyé}
+\chanson[position=2col,numero=1]{ly/Angelus/ParDieuLArchange}
+
+\titre{Voici que l'Ange Gabriel}
+\chanson[position=2col,numero=1]{ly/Angelus/VoiciQueLAngeGabriel}
+
+\titre{Regina Cæli}
+\cantus{Antienne}{ReginaCaeli-simple}{}{}
+\reponsegras{\vb. Gaude et lætáre, Virgo María, allelúia.}{\vb. Réjouissez-vous et soyez dans l’allégresse, Vierge Marie, alléluia.}
+\versio{Quia surréxit Dóminus vere, allelúia.}{Parce que le Seigneur est vraiment ressuscité, alléluia.}
+\reponsegras{Orémus.}{Prions.}
+\versio{Deus, qui per resurrectiónem Fílii tui, Dómini nostri Iesu Christi, mundum lætificáre dignátus es : præsta, quǽsumus ; ut, per eius Genitrícem Vírginem Maríam, perpétuæ capiámus gáudia vitæ. Per eúndem Christum Dóminum nostrum.}
+{O Dieu, qui avez daigné réjouir le monde par la résurrection de Jésus-Christ, votre Fils ; faites, nous vous en supplions, qu’aidés par sa Mère, la Vierge Marie, nous arrivions à la possession des joies de la vie éternelle. Par le même Christ notre Seigneur.}
+\versio{Amen.}{Ainsi soit-il.}
+
 \end{document}
